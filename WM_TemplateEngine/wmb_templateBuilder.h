@@ -6,11 +6,11 @@ namespace wmb {
 	class wmb_templateBuilder
 	{
 	private:
+		wmb_templateBuilder();
 		static wmb_templateBuilder* body;
 	public:
-		wmb_templateBuilder();
-		~wmb_templateBuilder();
-		static wmb::wmb_templateBuilder* getInstance();
+		virtual ~wmb_templateBuilder();
+		static wmb_templateBuilder* getInst();
 	};
 }
 
