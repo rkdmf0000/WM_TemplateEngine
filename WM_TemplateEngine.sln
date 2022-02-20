@@ -15,6 +15,10 @@ Global
 		Release|ARM64 = Release|ARM64
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		second_laptop_debug_x64|ARM = second_laptop_debug_x64|ARM
+		second_laptop_debug_x64|ARM64 = second_laptop_debug_x64|ARM64
+		second_laptop_debug_x64|x64 = second_laptop_debug_x64|x64
+		second_laptop_debug_x64|x86 = second_laptop_debug_x64|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.Debug|ARM.ActiveCfg = Debug|ARM
@@ -41,6 +45,18 @@ Global
 		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.Release|x86.ActiveCfg = Release|x86
 		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.Release|x86.Build.0 = Release|x86
 		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.Release|x86.Deploy.0 = Release|x86
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM.ActiveCfg = second_laptop_debug_x64|ARM
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM.Build.0 = second_laptop_debug_x64|ARM
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM.Deploy.0 = second_laptop_debug_x64|ARM
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM64.ActiveCfg = second_laptop_debug_x64|ARM64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM64.Build.0 = second_laptop_debug_x64|ARM64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|ARM64.Deploy.0 = second_laptop_debug_x64|ARM64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x64.ActiveCfg = second_laptop_debug_x64|x64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x64.Build.0 = second_laptop_debug_x64|x64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x64.Deploy.0 = second_laptop_debug_x64|x64
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x86.ActiveCfg = second_laptop_debug_x64|x86
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x86.Build.0 = second_laptop_debug_x64|x86
+		{1B59001C-A533-4FC0-B2B1-CC12891E4204}.second_laptop_debug_x64|x86.Deploy.0 = second_laptop_debug_x64|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

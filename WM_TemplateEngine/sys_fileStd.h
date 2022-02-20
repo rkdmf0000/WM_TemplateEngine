@@ -15,14 +15,15 @@ namespace wmb {
 
 	struct deck {
 		//cursor의 크기만큼 스트림이 쌓임
-		wmb::DINT size; //memory-stack-group 1
-		wmb::DINT checklist_cnt; //memory-stack-group 1
-		wmb::stream** streams = nullptr; //memory-stack-group variable
-		wmb::DINT* checklist = nullptr; //memory-stack-group variable
+		wmb::DINT size; //streams cnt
+		wmb::DINT checklist_cnt; //checklist cnt
+		wmb::stream** streams = nullptr;//문자열
+		wmb::DINT* checklist = nullptr;
 		
 
 		//unsigned char임 최대 256 바이트까지 긁도록 한다.
 		wmb::BLOCK_COUNT cursor;
+		wmb::FLAG inited = false;
 	};
 
 
